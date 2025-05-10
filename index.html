@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>📚 Library Manager</h1>
+        <p>Manage your library database with ease</p>
+    </header>
+
+    <main>
+        <div class="buttons">
+            <button onclick="createDatabase()">Create Database</button>
+            <button onclick="deleteDatabase()">Delete Database</button>
+            <button onclick="createTable()">Create Table</button>
+            <button onclick="deleteTable()">Delete Table</button>
+        </div>
+
+        <div id="output" class="output-box">
+            <p>Output will appear here...</p>
+        </div>
+    </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
